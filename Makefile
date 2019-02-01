@@ -123,6 +123,33 @@ DoomFire/fast:
 	$(MAKE) -f CMakeFiles/DoomFire.dir/build.make CMakeFiles/DoomFire.dir/build
 .PHONY : DoomFire/fast
 
+src/fire.o: src/fire.cpp.o
+
+.PHONY : src/fire.o
+
+# target to build an object file
+src/fire.cpp.o:
+	$(MAKE) -f CMakeFiles/DoomFire.dir/build.make CMakeFiles/DoomFire.dir/src/fire.cpp.o
+.PHONY : src/fire.cpp.o
+
+src/fire.i: src/fire.cpp.i
+
+.PHONY : src/fire.i
+
+# target to preprocess a source file
+src/fire.cpp.i:
+	$(MAKE) -f CMakeFiles/DoomFire.dir/build.make CMakeFiles/DoomFire.dir/src/fire.cpp.i
+.PHONY : src/fire.cpp.i
+
+src/fire.s: src/fire.cpp.s
+
+.PHONY : src/fire.s
+
+# target to generate assembly for a file
+src/fire.cpp.s:
+	$(MAKE) -f CMakeFiles/DoomFire.dir/build.make CMakeFiles/DoomFire.dir/src/fire.cpp.s
+.PHONY : src/fire.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... DoomFire"
 	@echo "... edit_cache"
+	@echo "... src/fire.o"
+	@echo "... src/fire.i"
+	@echo "... src/fire.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

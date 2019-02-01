@@ -1,1 +1,0 @@
-cd bin && sh ./DoomFire && cd ..

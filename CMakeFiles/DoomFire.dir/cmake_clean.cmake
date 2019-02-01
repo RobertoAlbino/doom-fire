@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/DoomFire.dir/src/fire.cpp.o"
   "CMakeFiles/DoomFire.dir/src/main.cpp.o"
   "bin/DoomFire.pdb"
   "bin/DoomFire"

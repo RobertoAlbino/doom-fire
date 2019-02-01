@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/roberto/Projetos/Computer/DoomFire/src/main.cpp
+/home/roberto/Projetos/Computer/DoomFire/include/fire.h
+
+/home/roberto/Projetos/Computer/DoomFire/src/fire.cpp
 iostream
 -
+../include/fire.h
+/home/roberto/Projetos/Computer/DoomFire/include/fire.h
+
+/home/roberto/Projetos/Computer/DoomFire/src/main.cpp
+../include/fire.h
+/home/roberto/Projetos/Computer/DoomFire/include/fire.h
 

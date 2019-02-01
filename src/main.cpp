@@ -1,8 +1,8 @@
-#include <iostream>
-
-using namespace std;
+#include "../include/fire.h"
 
 int main() {
-    cout << "Hello, World!" << endl;
+    DoomFire::Fire fire;
+    fire.createFireDataStructure();
     return 0;
 }
+
