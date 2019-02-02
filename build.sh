@@ -1,1 +1,1 @@
-clear && cmake . && make && clear && cd bin && sudo ./DoomFire
+clear && cmake . && make && cd bin && sudo ./DoomFire

@@ -1,8 +1,9 @@
 #include "../include/fire.h"
 
+DoomFire::Fire fire;
+
 int main() {
-    DoomFire::Fire fire;
-    fire.createFireDataStructure();
+    fire.start();
     return 0;
 }
 
