@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/DoomFire.dir/src/fire.cpp.o CMakeFiles/DoomFire.dir/src/main.cpp.o  -o bin/DoomFire 

@@ -1,6 +1,4 @@
-#ifndef DOOMFIRE_FIRE_H
-#define DOOMFIRE_FIRE_H
-#endif
+#pragma once
 
 namespace DoomFire {
 

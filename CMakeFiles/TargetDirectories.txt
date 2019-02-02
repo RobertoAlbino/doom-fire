@@ -1,3 +1,0 @@
-/home/roberto/Projetos/Computer/DoomFire/CMakeFiles/rebuild_cache.dir
-/home/roberto/Projetos/Computer/DoomFire/CMakeFiles/DoomFire.dir
-/home/roberto/Projetos/Computer/DoomFire/CMakeFiles/edit_cache.dir
