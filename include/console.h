@@ -4,6 +4,7 @@
 #include <string>
 #include <sstream>
 #include <curses.h>
+#include <curses.h>
 
 namespace DoomFire {
 

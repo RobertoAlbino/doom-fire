@@ -4,6 +4,8 @@
 
 namespace DoomFire {
 
+    Console console;
+
     void Fire::start() {
         createFireDataStructure();
     }
@@ -13,13 +15,11 @@ namespace DoomFire {
         for (int i = 0; i < totalPixels; i++) {
             fireArray[i][i] = 0;
         }
-        renderFire();
+        console.output("Olá Mundo");
     }
 
     void Fire::renderFire() {
-        for (int row = 0; row < fireHeigth; row++) {
-            DoomFire::Console console;
-        }
+
     }
 
 }
