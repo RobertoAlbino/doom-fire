@@ -1,6 +1,4 @@
 #include "../include/console.h"
-#include <curses.h>
-#include <curses.h>
 
 namespace DoomFire {
 

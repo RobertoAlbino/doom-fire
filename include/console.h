@@ -3,8 +3,7 @@
 #include <ctime>
 #include <string>
 #include <sstream>
-#include <curses.h>
-#include <curses.h>
+#include <ncurses.h>
 
 namespace DoomFire {
 
