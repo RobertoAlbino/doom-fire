@@ -33,6 +33,7 @@ public:
     void moveCursor(int x, int y);
     void moveCursor(COORD_2D pos);
     void color(COLOR_ID);
+    void refresh();
 
     template <typename TYPE>
     std::string toString(TYPE t) {

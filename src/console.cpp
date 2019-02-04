@@ -1,3 +1,4 @@
+#include <term.h>
 #include "../include/console.h"
 
 namespace DoomFire {
@@ -11,9 +12,7 @@ namespace DoomFire {
         if (classInstances == 0) {
             initscr();
             cbreak();
-            noecho();
             keypad(stdscr, true);
-            start_color();
             cls();
             for (int i = 0; i < 256; i++) {
                 foreBoldFlags[i] = false;
@@ -24,10 +23,7 @@ namespace DoomFire {
 
     DoomFire::Console::~Console(void) {
         --classInstances;
-        if (classInstances == 0) {
-            cls();
-            endwin();
-        }
+        endwin();
     }
 
     void Console::initColor(COLOR_ID colorId, int fg, int bg, bool fBold, bool bBold) {
@@ -172,6 +168,13 @@ namespace DoomFire {
     void Console::pause() {
         clearKey();
         output("Press any key to continue . . .");
+        waitForKey();
+        output("\n");
+    }
+
+    void Console::refresh() {
+        clearKey();
+        refresh();
         waitForKey();
         output("\n");
     }
